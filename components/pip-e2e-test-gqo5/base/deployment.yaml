@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: pip-e2e-test-gqo5
     spec:
       containers:
-      - image: pip-e2e-test:latest
+      - image: quay.io/susdas_quay_org/demo/test-app-oegi/pip-e2e-test-gqo5@sha256:2806fef5342eda4cc62673c9a590be8e924ecfaa21b6884fd1083deec119ef2d
         name: pip-e2e-test
         ports:
         - containerPort: 8081
